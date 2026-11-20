@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://cloudflare-dns.com/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>1.1.1.1</string>
+                    <string>1.0.0.1</string>
+                    <string>8.8.8.8</string>
+                    <string>8.8.4.4</string>
+                    <string>2606:4700:4700::1111</string>
+                    <string>2606:4700:4700::1001</string>
+                    <string>2001:4860:4860::8888</string>
+                    <string>2001:4860:4860::8844</string>
+                </array>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>កំណត់ DNS ជំនួយសេវ៉ា និងល្បឿនសម្រាប់ OP WiFi🪽</string>
+            <key>PayloadDisplayName</key>
+            <string>OP WiFi🪽</string>
+            <key>PayloadIdentifier</key>
+            <string>com.opwifi.dns.ios</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>5D1A8E3C-9B4F-42C7-8A1E-778899AABBCC</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Profile តំឡើង DNS សម្រាប់ OP WiFi🪽 លើ iPhone / iPad</string>
+    <key>PayloadDisplayName</key>
+    <string>OP WiFi🪽</string>
+    <key>PayloadIdentifier</key>
+    <string>com.opwifi.profile.ios</string>
+    <key>PayloadOrganization</key>
+    <string>OP WiFi🪽</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>2F7C4B9A-6E1D-45A8-B3C2-DDEEFF001122</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
